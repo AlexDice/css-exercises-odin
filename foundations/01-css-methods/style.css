@@ -1,0 +1,16 @@
+.title-red{
+    background-color: red;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.subtitle-green{
+    background-color: green;
+    color: white;
+}
+
+.yellow-button{
+    background-color: orange;
+}
