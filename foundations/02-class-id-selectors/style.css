@@ -1,0 +1,14 @@
+.font-style{
+    font-family: Verdana, "DejaVu Sans",sans-serif;
+    font-size: 24px;
+    background-color: pink;
+}
+#green-font{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: lightgreen;
+}
+#blue-font{
+    font-size: 36px;
+    color: blue;
+}
