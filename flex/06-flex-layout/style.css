@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display:flex;
+  flex-direction: column;
 }
 
 img {
@@ -16,6 +18,11 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding:10px;
+}
+
+div.buttons{
+  align-self:center;
 }
 
 input {
@@ -25,3 +32,46 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/*Can't understand why I can't do it on just input selector...*/
+div.input{
+  display:flex;
+  align-self: center;
+}
+
+/*sh works kind of*/
+.content{
+  display:flex;
+  flex-flow: column wrap;
+  align-content: center;
+  flex:1;
+}
+
+.header,.footer{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  flex:0 1 auto;
+}
+
+li, a{
+color:black;
+text-decoration: none;
+list-style-type: none;
+
+}
+
+.right-links, .left-links{
+  display:flex;
+  flex-wrap: wrap;
+  gap:20px;
+  padding:0px 20px 0px 20px;
+}
+
+.footer{
+  background-color: #eeeeee;
+}
+
+
+
+
